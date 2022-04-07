@@ -3,10 +3,8 @@ package InterviewQuestions;
 public class CheckPalindromeString {
 
     public static void main(String[] args) {
-
-       String str = "aabbaa1";
+       String str = "aabbaa";
         System.out.println(checkPalindrome(str));
-
     }
     static int checkPalindrome(String str){
         int n = str.length();
