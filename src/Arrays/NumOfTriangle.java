@@ -1,6 +1,7 @@
 package Arrays;
 import java.util.*;
 
+//Count the number of possible triangles
 public class NumOfTriangle {
     public static  int noOftri(int arr[], int n){
         Arrays.sort(arr);
