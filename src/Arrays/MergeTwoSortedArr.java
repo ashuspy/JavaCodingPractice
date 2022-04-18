@@ -36,5 +36,5 @@ public class MergeTwoSortedArr {
         for (int i = 0; i < n; i++)
             System.out.print(ar2[i]+ " ");
 
-    }
+        }
 }
