@@ -3,7 +3,13 @@ package InterviewQuestions;
 public class PrimeNumberCheck {
     public static void main(String[] args) {
         System.out.println(isPrime(19));
-        System.out.println(isPrime(7));
+
+        int N =100;
+        for(int i =1;i<=N;i++){
+            if(isPrime(i)){
+                System.out.println(i + " ");
+            }
+        }
     }
 
     public  static boolean isPrime(int n){

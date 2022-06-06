@@ -8,8 +8,8 @@ public class FibonacciNumbers {
     }
 
     public static void main(String args[]) {
-        int n = 10;
-        for (int i = 0; i<n; i++) {
+        int a = 10;
+        for (int i = 0; i<a; i++) {
             System.out.print(fibonacci(i) + " ");
         }
     }

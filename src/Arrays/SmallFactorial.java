@@ -1,8 +1,10 @@
-import java.util.*;  
+package Arrays;
+
+import java.util.*;
 
 import java.math.BigInteger;
 
-public class TestClass{
+public class SmallFactorial{
 
     static BigInteger factorial(int N){
 

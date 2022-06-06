@@ -9,7 +9,7 @@ public class Swapping2Num {
         int temp = a;
         a = b;
         b= temp;
-
+        System.out.println("After swapping " + a+ " "+ b);
         //2nd logic
 //         a = a+b;//10+20=30
 //         b = a-b;//30-20=10
@@ -21,6 +21,6 @@ public class Swapping2Num {
 //        a=a/b;
 
 
-        System.out.println("After swapping " + a+ " "+ b);
+
     }
 }
