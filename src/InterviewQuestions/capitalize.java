@@ -6,7 +6,7 @@ public class capitalize {
     public static String capitalize(String str)
     {
         if(str == null) return str;
-        return str.substring(0, 1).toUpperCase() + str.substring(1);
+        return str.substring(0, 1).toUpperCase() + str.substring(1) + " ";
     }
 
     public static void main(String [] args) {
@@ -17,7 +17,7 @@ public class capitalize {
         Scanner scan = new Scanner(System.in);
         name  = scan.next();
 
-        String upperCase = name.substring(0, 1).toUpperCase() + name.substring(1);
+        String upperCase = name.substring(0, 1).toUpperCase() + name.substring(1) + " ";
         System.out.println("OUTPUT: " + upperCase);
 
     }

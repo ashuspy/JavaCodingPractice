@@ -55,7 +55,7 @@ public class DistinctCount {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 12,10,9,45,2,10,10,6,45};
+        int arr[] = { 12,10,9,45,2,10,10,1,6,45};
         int n = arr.length;
         System.out.println(countDistinct(arr,n));
     }

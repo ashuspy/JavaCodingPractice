@@ -15,6 +15,7 @@ public class UpperCase {
 
     public static void main(String[] args) {
         String s = "i am attractive unique with a strong personality";
+        System.out.println(s);
         System.out.println(UpperCase.convert(s));
     }
 }

@@ -15,6 +15,7 @@ public class CountCharacterInString {
             }
             i++;
         }
-        System.out.println("Number of charcters in the given String  are "+count);
+        System.out.println("Number of charcters in the given" +
+                " String  are "+count);
     }
 }
